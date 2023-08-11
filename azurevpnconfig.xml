@@ -1,0 +1,43 @@
+<AzVpnProfile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/">
+  <any xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Xml"
+    i:nil="true" />
+  <clientauth>
+    <aad>
+      <audience>41b23e61-6c1e-4545-b367-cd054e0ed4b4</audience>
+      <cachesigninuser>true</cachesigninuser>
+      <enablegrouptoken>false</enablegrouptoken>
+      <issuer>https://sts.windows.net/b6353cef-bd07-41ef-9afb-2bd6522f8ae2/</issuer>
+      <tenant>https://login.microsoftonline.com/b6353cef-bd07-41ef-9afb-2bd6522f8ae2/</tenant>
+    </aad>
+    <cert
+      i:nil="true" />
+    <type>aad</type>
+    <usernamepass
+      i:nil="true" />
+  </clientauth>
+  <clientconfig
+    i:nil="true" />
+  <name>ek-we-vwan-westeurope_ek-we-vpngwconfig01</name>
+  <protocolconfig>
+    <sslprotocolConfig>
+      <transportprotocol>tcp</transportprotocol>
+    </sslprotocolConfig>
+  </protocolconfig>
+  <serverlist>
+    <ServerEntry>
+      <displayname
+        i:nil="true" />
+      <fqdn>wan.nhkvm4ly32hk5581iajpe3re.vpn.azure.com</fqdn>
+    </ServerEntry>
+  </serverlist>
+  <servervalidation>
+    <cert>
+      <hash>A8985D3A65E5E5C4B2D7D66D40C6DD2FB19C5436</hash>
+      <issuer
+        i:nil="true" />
+    </cert>
+    <serversecret>2331e4f99f1d5873f4164948567da9902c975583331c1f3141f9e824fc9c4ebecd092712c292fa27a2ea243428b294312fe69a2847ed5533cab8b89e6000ce315d29492bf2ebcd7b8ee22ae6210da9b7e6ec4605dda9de996db8663718121ee01e943d95e42e5d2797a321fcfaf659a85f2da7e7db9b01ac260ec4c81bfdd7fabb746865f780da14213a16a62fa9d08971c6825badc00269a8da9b137072b67105e020c048a488f34b9f89f29fcebb4998c8f669ad80d0ab5cbf480e2f902c1c8691dc9175fb09e9737dff7687ce158306c452a695c022e4b90738e92c860b56999d8318f324d68616a52870a602604c623c052fb909d1964ab9df1cd8f0bfac</serversecret>
+    <type>cert</type>
+  </servervalidation>
+  <version>1</version>
+</AzVpnProfile>
