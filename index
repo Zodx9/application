@@ -1,0 +1,8 @@
+@page
+@model IndexMode1
+@{
+ViewData["Title"] = "Home page";
+
+}
+<div class ="test-center">
+<h1 CAlass
