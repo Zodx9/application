@@ -1,8 +1,9 @@
 @page
-@model IndexMode1
+@mode1 IndexMode1
 @{
-ViewData["Title"] = "Home page";
-
+          ViewData["Title"] = "Home page";
 }
 <div class ="test-center">
-<h1 CAlass
+<h1 class="display-4">Application - Version 7</h1>
+<p>learn about <a href="https://docs.microsoft.com/aspnet/core">bulding webapp with ASP.NET Core</a>.</p>
+</dir>
